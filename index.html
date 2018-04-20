@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+
+    <!-- Adds a link to the riot compiler -->
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.7/riot+compiler.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <emoji-search></emoji-search>
+    <div class="emoji-container"></div>
+
+    <!-- Reference the riot tags here -->
+    <script src="emoji-search.tag" type="riot/tag"></script>
+
+    <script>
+
+        // Mount the riot tags to the page here        
+        riot.mount('emoji-search');
+
+    </script>
+
+</body>
+
+</html>
